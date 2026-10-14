@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@/components/tasks/*": [
+        "./components/dashboard/tasks/*"
+      ],
+      "@/components/team/*": [
+        "./components/dashboard/team/*"
+      ],
+      "@/components/analytics/*": [
+        "./components/dashboard/analytics/*"
+      ],
+      "@/components/calendar/*": [
+        "./components/dashboard/calendar/*"
+      ],
+      "@/components/settings/*": [
+        "./components/dashboard/settings/*"
+      ],
+      "@/components/help/*": [
+        "./components/dashboard/help/*"
+      ],
+      "@/components/world-map": [
+        "./components/landing/world-map"
+      ],
+      "@/components/animated-text": [
+        "./components/landing/animated-text"
+      ],
+      "@/components/navbar": [
+        "./components/landing/navbar"
+      ],
+      "@/components/dashboard/sidebar": [
+        "./components/dashboard/dashboard/sidebar"
+      ],
+      "@/components/dashboard/header": [
+        "./components/dashboard/dashboard/header"
+      ],
+      "@/components/dashboard/*": [
+        "./components/dashboard/dashboard/*",
+        "./components/dashboard/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

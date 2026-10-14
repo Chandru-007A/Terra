@@ -1,0 +1,138 @@
+{
+  "catalog_version": "1.0.0",
+  "generated_at": "2026-10-14T03:14:04.589001+00:00",
+  "repository": "Terra \u2014 AI Crop & Resource Optimization",
+  "datasets": {
+    "official_crop_production_india": {
+      "name": "District-Wise Crop Production Statistics of India",
+      "organization": "Directorate of Economics and Statistics (DES), Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare, Government of India",
+      "source_url": "https://raw.githubusercontent.com/ankitaS11/Crop-Yield-Prediction-in-India-using-ML/master/crop_production.csv",
+      "original_portal": "Open Government Data (OGD) Platform India (data.gov.in)",
+      "license": "Government Open Data License - India (GODL)",
+      "access_type": "Free / Public / Programmatic Download",
+      "retrieval_date": "2026-10-13",
+      "date_coverage": "1997 \u2013 2015 (18 crop years)",
+      "geographic_coverage": "33 Indian States / Union Territories, 646 Agricultural Districts",
+      "crops_coverage": "124 crops recorded; 20 Terra target crops extracted and standardized (19 with non-zero historical production, 1 watermelon recorded with 0.0 production)",
+      "raw_file": "data/raw/crop_production_india.csv (15.3 MB, 246,091 total rows)",
+      "processed_file": "data/processed/india_district_crop_yield.csv (122,427 clean valid records)",
+      "raw_to_clean_audit": {
+        "total_raw_rows": 246091,
+        "terra_crops_matched": 125827,
+        "non_terra_crops_excluded": 120264,
+        "nan_production_dropped": 1297,
+        "zero_production_dropped": 562,
+        "sub_1ha_positive_area_dropped": 6,
+        "icar_outliers_dropped": 1535,
+        "outliers_below_min": 1385,
+        "outliers_above_max": 150,
+        "final_retained_records": 122427,
+        "rounding_boundary_note": "122,427 rows retained with 2-decimal rounded boundary filtering (122,418 if using unrounded 64-bit float math, a 9-row difference at exact physiological boundary thresholds)."
+      },
+      "original_units": {
+        "Area": "Hectares (ha)",
+        "Production": "Metric Tonnes (t)"
+      },
+      "standardized_units": {
+        "area_ha": "Hectares",
+        "area_acres": "Acres (1 ha = 2.47105 acres)",
+        "production_tonnes": "Metric Tonnes",
+        "production_quintals": "Quintals (1 tonne = 10 quintals)",
+        "yield_q_per_acre": "Quintals per Acre (production_quintals / area_acres)"
+      },
+      "transformations_applied": [
+        "Stripped whitespace from text columns",
+        "Mapped 20 official crop names to canonical Terra crop IDs (e.g. Gram -> chickpea, Moong -> mungbean)",
+        "Normalized seasons: Summer -> Zaid, Winter/Autumn -> Rabi/Kharif",
+        "Dropped rows with missing Production (1,297 rows in Terra crops; NO imputation)",
+        "Dropped non-positive Production rows (562 rows; NO imputation)",
+        "Filtered Area < 1.0 ha smallholder anomalies (22 rows, 6 with positive production)",
+        "Applied ICAR physiological yield boundaries to remove transcription errors (1,535 rows filtered; >98.8% retention)"
+      ],
+      "adequacy_for_ml_evaluation": {
+        "regional_yield_benchmarking": "EXCELLENT \u2014 provides real empirical yield distributions (median, IQR, 10th-90th percentiles) across 646 districts over 18 years for 19 crops.",
+        "farm_level_predictive_limitation": "CANNOT VALIDATE FARM-LEVEL NPK/WEATHER PREDICTOR \u2014 District statistics reflect macro regional aggregates (total production / total cropped area) and lack field-level NPK soil test chemistry, irrigation volumes, and plot management practices. Claiming district data validates farm-level predictive accuracy commits the ecological fallacy."
+      }
+    },
+    "crop_suitability_real": {
+      "name": "Crop Recommendation Dataset (Augmented Precision Agriculture Benchmark)",
+      "author": "Atharva Ingle",
+      "organization": "Kaggle Dataset Creator (atharvaingle/crop-recommendation-dataset); mirrored in Harvestify Project",
+      "source_url": "https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset (Mirror: https://raw.githubusercontent.com/Gladiator07/Harvestify/master/Data-processed/crop_recommendation.csv)",
+      "original_portal": "Kaggle (atharvaingle/crop-recommendation-dataset)",
+      "license": "Public Domain / Open Access (MIT on repository mirror)",
+      "access_type": "Free / Public / Programmatic Download",
+      "retrieval_date": "2026-10-13",
+      "collection_method": "Built by augmenting Indian rainfall, climate, and fertilizer datasets around optimal crop conditions.",
+      "data_nature": "AUGMENTED / SYNTHETIC benchmark. NOT raw uncurated ICAR field plot telemetry or physical IoT sensor feeds.",
+      "date_coverage": "Augmented agronomic benchmark dataset",
+      "geographic_coverage": "Synthetic parameter augmentation based on Indian agro-climatic conditions",
+      "crops_coverage": "22 crops (100 observations each, total 2,200 rows; 8 directly match Terra catalog: rice, maize, chickpea, pigeonpea, mungbean, lentil, cotton, watermelon)",
+      "raw_file": "data/raw/crop_recommendation.csv (148 KB, 2,200 rows)",
+      "processed_file": "data/processed/crop_suitability_real.csv (2,200 rows)",
+      "units": {
+        "N": "Soil Nitrogen ratio (kg/ha)",
+        "P": "Soil Phosphorus ratio (kg/ha)",
+        "K": "Soil Potassium ratio (kg/ha)",
+        "temperature": "Mean seasonal temperature (\u00b0C)",
+        "humidity": "Relative humidity (%)",
+        "ph": "Soil pH scale (3.5 \u2013 9.9)",
+        "rainfall": "Total seasonal rainfall (mm)",
+        "label": "Optimal crop type recommendation"
+      },
+      "data_quality": "Clean benchmark: 0 null values, 0 duplicate rows, 100 balanced samples per crop, Gaussian-like clusters around distinct centers.",
+      "adequacy_for_ml_evaluation": {
+        "benchmark_classification": "Measures classifier ability to separate 22 distinct augmented crop clusters (achieves 99.64% 5-fold CV).",
+        "real_world_generalization_limitation": "DOES NOT ESTABLISH REAL-FARM FIELD ACCURACY. Because clusters are synthetically augmented and well-separated in 7D space, high CV accuracy is an in-distribution property. When tested against models trained on unaugmented crop ideals, cross-domain accuracy drops to ~23.5%. It does not prove real-world accuracy on actual messy farm soil tests."
+      }
+    },
+    "nasa_power_agroclimatology": {
+      "name": "NASA Prediction of Worldwide Energy Resources (POWER) Agroclimatology API v2.6",
+      "organization": "NASA Langley Research Center / POWER Project",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/climatology/point",
+      "license": "NASA Open Data Policy (CC0 / Public Domain)",
+      "access_type": "Free / Public / Programmatic REST API (No API key required)",
+      "retrieval_date": "2026-10-13",
+      "date_coverage": "1981 \u2013 2022 (42-year climatology baseline) and 2010 \u2013 2015 historical time series",
+      "geographic_coverage": "8 key Indian agro-ecological districts (Nashik, Ludhiana, Pune, Thanjavur, Varanasi, Rajkot, Indore, Guntur)",
+      "raw_files": [
+        "data/raw/nasa_power_climatology_districts.json",
+        "data/raw/nasa_power_monthly_2010_2015.json"
+      ],
+      "processed_files": [
+        "data/processed/district_agroclimate_profiles.json",
+        "data/processed/district_agroclimate_profiles.csv"
+      ],
+      "parameters_and_units": {
+        "T2M": "Temperature at 2 Meters (\u00b0C)",
+        "PRECTOTCORR": "Precipitation Corrected (mm/day or mm/season)",
+        "RH2M": "Relative Humidity at 2 Meters (%)",
+        "ALLSKY_SFC_SW_DWN": "All Sky Surface Shortwave Downward Irradiance (MJ/m\u00b2/day)"
+      },
+      "data_quality": "Continuous assimilation model (MERRA-2) ground-referenced for agricultural meteorology, zero missing values.",
+      "adequacy_for_ml_evaluation": {
+        "weather_feature_validation": "EXCELLENT \u2014 provides real historical and seasonal temperature, precipitation, and humidity for validating regional weather assumptions."
+      }
+    },
+    "cacp_price_cost_benchmarks": {
+      "name": "Official Minimum Support Prices (MSP) & Cost of Cultivation Surveys 2024-25",
+      "organization": "Commission for Agricultural Costs and Prices (CACP), Ministry of Agriculture & Farmers Welfare, GoI",
+      "source_url": "https://cacp.dacnet.nic.in/ (Official Price Policy Reports)",
+      "license": "Public Domain (Official Government Notification)",
+      "retrieval_date": "2026-10-13",
+      "date_coverage": "Kharif & Rabi Marketing Seasons 2024-25",
+      "units": {
+        "MSP": "\u20b9 per Quintal",
+        "Cost A2+FL": "\u20b9 per Acre (derived from CACP survey per-hectare cost)"
+      },
+      "adequacy_for_ml_evaluation": "EXCELLENT \u2014 real economic baseline for validating optimizer revenue and cultivation cost models."
+    }
+  },
+  "integrity_rules_enforced": [
+    "Real records and synthetic records are stored separately and tagged with is_synthetic: False vs True.",
+    "Missing values in government statistics are dropped rather than imputed or fabricated.",
+    "Units are explicitly documented on both raw ingestion and processed outputs.",
+    "No credentials or paid APIs are used.",
+    "Regional district aggregate benchmarking is strictly decoupled from farm-level predictive validation."
+  ]
+}

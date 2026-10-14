@@ -1,0 +1,290 @@
+{
+  "nashik_maharashtra": {
+    "district_id": "nashik_maharashtra",
+    "state": "Maharashtra",
+    "latitude": 19.9975,
+    "longitude": 73.7898,
+    "annual": {
+      "temperature_c": 24.43,
+      "rainfall_mm": 1640.0,
+      "relative_humidity_pct": 61.17,
+      "solar_radiation_mj": 18.57
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 22.65,
+        "rainfall_mm": 30.7,
+        "relative_humidity_pct": 43.45,
+        "solar_radiation_mj": 19.29
+      },
+      "Kharif": {
+        "temperature_c": 24.51,
+        "rainfall_mm": 1510.8,
+        "relative_humidity_pct": 87.0,
+        "solar_radiation_mj": 14.06
+      },
+      "Zaid": {
+        "temperature_c": 29.35,
+        "rainfall_mm": 15.5,
+        "relative_humidity_pct": 45.42,
+        "solar_radiation_mj": 25.88
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  },
+  "ludhiana_punjab": {
+    "district_id": "ludhiana_punjab",
+    "state": "Punjab",
+    "latitude": 30.901,
+    "longitude": 75.8573,
+    "annual": {
+      "temperature_c": 25.33,
+      "rainfall_mm": 661.1,
+      "relative_humidity_pct": 43.43,
+      "solar_radiation_mj": 18.11
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 16.9,
+        "rainfall_mm": 101.6,
+        "relative_humidity_pct": 42.48,
+        "solar_radiation_mj": 14.03
+      },
+      "Kharif": {
+        "temperature_c": 32.58,
+        "rainfall_mm": 505.7,
+        "relative_humidity_pct": 52.8,
+        "solar_radiation_mj": 20.46
+      },
+      "Zaid": {
+        "temperature_c": 31.67,
+        "rainfall_mm": 42.9,
+        "relative_humidity_pct": 26.62,
+        "solar_radiation_mj": 24.13
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  },
+  "pune_maharashtra": {
+    "district_id": "pune_maharashtra",
+    "state": "Maharashtra",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "annual": {
+      "temperature_c": 23.86,
+      "rainfall_mm": 1731.3,
+      "relative_humidity_pct": 66.8,
+      "solar_radiation_mj": 18.49
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 21.9,
+        "rainfall_mm": 33.1,
+        "relative_humidity_pct": 54.38,
+        "solar_radiation_mj": 19.45
+      },
+      "Kharif": {
+        "temperature_c": 24.05,
+        "rainfall_mm": 1551.8,
+        "relative_humidity_pct": 87.4,
+        "solar_radiation_mj": 14.02
+      },
+      "Zaid": {
+        "temperature_c": 28.87,
+        "rainfall_mm": 29.8,
+        "relative_humidity_pct": 49.36,
+        "solar_radiation_mj": 25.37
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  },
+  "thanjavur_tamil_nadu": {
+    "district_id": "thanjavur_tamil_nadu",
+    "state": "Tamil Nadu",
+    "latitude": 10.787,
+    "longitude": 79.1378,
+    "annual": {
+      "temperature_c": 28.22,
+      "rainfall_mm": 1011.7,
+      "relative_humidity_pct": 70.7,
+      "solar_radiation_mj": 19.53
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 25.88,
+        "rainfall_mm": 411.4,
+        "relative_humidity_pct": 77.1,
+        "solar_radiation_mj": 18.24
+      },
+      "Kharif": {
+        "temperature_c": 29.84,
+        "rainfall_mm": 297.7,
+        "relative_humidity_pct": 64.37,
+        "solar_radiation_mj": 20.44
+      },
+      "Zaid": {
+        "temperature_c": 31.12,
+        "rainfall_mm": 106.4,
+        "relative_humidity_pct": 63.52,
+        "solar_radiation_mj": 22.12
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  },
+  "varanasi_uttar_pradesh": {
+    "district_id": "varanasi_uttar_pradesh",
+    "state": "Uttar Pradesh",
+    "latitude": 25.3176,
+    "longitude": 82.9739,
+    "annual": {
+      "temperature_c": 26.63,
+      "rainfall_mm": 814.5,
+      "relative_humidity_pct": 51.9,
+      "solar_radiation_mj": 17.4
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 20.19,
+        "rainfall_mm": 43.2,
+        "relative_humidity_pct": 44.86,
+        "solar_radiation_mj": 14.56
+      },
+      "Kharif": {
+        "temperature_c": 31.01,
+        "rainfall_mm": 699.1,
+        "relative_humidity_pct": 70.14,
+        "solar_radiation_mj": 17.91
+      },
+      "Zaid": {
+        "temperature_c": 34.31,
+        "rainfall_mm": 33.5,
+        "relative_humidity_pct": 24.2,
+        "solar_radiation_mj": 23.88
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  },
+  "rajkot_gujarat": {
+    "district_id": "rajkot_gujarat",
+    "state": "Gujarat",
+    "latitude": 22.3039,
+    "longitude": 70.8022,
+    "annual": {
+      "temperature_c": 26.76,
+      "rainfall_mm": 715.9,
+      "relative_humidity_pct": 55.88,
+      "solar_radiation_mj": 19.63
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 22.92,
+        "rainfall_mm": 10.3,
+        "relative_humidity_pct": 41.08,
+        "solar_radiation_mj": 18.48
+      },
+      "Kharif": {
+        "temperature_c": 29.01,
+        "rainfall_mm": 679.1,
+        "relative_humidity_pct": 75.28,
+        "solar_radiation_mj": 17.79
+      },
+      "Zaid": {
+        "temperature_c": 31.43,
+        "rainfall_mm": 6.1,
+        "relative_humidity_pct": 50.66,
+        "solar_radiation_mj": 26.25
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  },
+  "indore_madhya_pradesh": {
+    "district_id": "indore_madhya_pradesh",
+    "state": "Madhya Pradesh",
+    "latitude": 22.7196,
+    "longitude": 75.8577,
+    "annual": {
+      "temperature_c": 26.02,
+      "rainfall_mm": 920.4,
+      "relative_humidity_pct": 51.15,
+      "solar_radiation_mj": 18.89
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 22.29,
+        "rainfall_mm": 30.4,
+        "relative_humidity_pct": 37.08,
+        "solar_radiation_mj": 18.0
+      },
+      "Kharif": {
+        "temperature_c": 27.43,
+        "rainfall_mm": 843.3,
+        "relative_humidity_pct": 77.09,
+        "solar_radiation_mj": 16.46
+      },
+      "Zaid": {
+        "temperature_c": 33.19,
+        "rainfall_mm": 14.6,
+        "relative_humidity_pct": 25.65,
+        "solar_radiation_mj": 26.07
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  },
+  "guntur_andhra_pradesh": {
+    "district_id": "guntur_andhra_pradesh",
+    "state": "Andhra Pradesh",
+    "latitude": 16.3067,
+    "longitude": 80.4365,
+    "annual": {
+      "temperature_c": 27.99,
+      "rainfall_mm": 1026.4,
+      "relative_humidity_pct": 69.9,
+      "solar_radiation_mj": 18.44
+    },
+    "seasonal": {
+      "Rabi": {
+        "temperature_c": 25.63,
+        "rainfall_mm": 117.7,
+        "relative_humidity_pct": 68.55,
+        "solar_radiation_mj": 18.01
+      },
+      "Kharif": {
+        "temperature_c": 28.8,
+        "rainfall_mm": 652.6,
+        "relative_humidity_pct": 75.53,
+        "solar_radiation_mj": 17.13
+      },
+      "Zaid": {
+        "temperature_c": 33.02,
+        "rainfall_mm": 67.5,
+        "relative_humidity_pct": 55.38,
+        "solar_radiation_mj": 22.95
+      }
+    },
+    "data_source": "NASA_POWER_v2.6",
+    "is_synthetic": false,
+    "retrieval_date": "2026-10-13",
+    "license": "NASA Open Data Policy (Public Domain)"
+  }
+}

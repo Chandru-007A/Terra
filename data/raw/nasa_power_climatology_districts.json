@@ -1,0 +1,978 @@
+{
+  "nashik_maharashtra": {
+    "metadata": {
+      "lat": 19.9975,
+      "lon": 73.7898,
+      "state": "Maharashtra"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.79,
+          19.997,
+          590.47
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 17.7,
+            "FEB": 20.77,
+            "MAR": 23.79,
+            "APR": 25.88,
+            "MAY": 25.88,
+            "JUN": 17.21,
+            "JUL": 11.72,
+            "AUG": 11.84,
+            "SEP": 15.48,
+            "OCT": 18.6,
+            "NOV": 17.63,
+            "DEC": 16.57,
+            "ANN": 18.57
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.02,
+            "FEB": 0.09,
+            "MAR": 0.16,
+            "APR": 0.12,
+            "MAY": 0.39,
+            "JUN": 10.49,
+            "JUL": 16.63,
+            "AUG": 13.13,
+            "SEP": 9.43,
+            "OCT": 2.35,
+            "NOV": 0.62,
+            "DEC": 0.12,
+            "ANN": 4.49
+          },
+          "RH2M": {
+            "JAN": 39.04,
+            "FEB": 33.41,
+            "MAR": 31.81,
+            "APR": 37.69,
+            "MAY": 53.16,
+            "JUN": 77.85,
+            "JUL": 89.88,
+            "AUG": 91.12,
+            "SEP": 89.16,
+            "OCT": 76.31,
+            "NOV": 63.63,
+            "DEC": 49.34,
+            "ANN": 61.17
+          },
+          "T2M": {
+            "JAN": 20.74,
+            "FEB": 23.35,
+            "MAR": 26.57,
+            "APR": 29.21,
+            "MAY": 29.49,
+            "JUN": 26.46,
+            "JUL": 24.26,
+            "AUG": 23.61,
+            "SEP": 23.71,
+            "OCT": 23.13,
+            "NOV": 21.79,
+            "DEC": 20.81,
+            "ANN": 24.43
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.136,
+        "process": 0.03
+      }
+    }
+  },
+  "ludhiana_punjab": {
+    "metadata": {
+      "lat": 30.901,
+      "lon": 75.8573,
+      "state": "Punjab"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.857,
+          30.901,
+          240.26
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 11.07,
+            "FEB": 15.16,
+            "MAR": 19.76,
+            "APR": 23.19,
+            "MAY": 25.07,
+            "JUN": 23.07,
+            "JUL": 19.95,
+            "AUG": 19.69,
+            "SEP": 19.13,
+            "OCT": 17.01,
+            "NOV": 13.21,
+            "DEC": 10.93,
+            "ANN": 18.11
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.76,
+            "FEB": 1.08,
+            "MAR": 0.98,
+            "APR": 0.65,
+            "MAY": 0.76,
+            "JUN": 2.76,
+            "JUL": 5.39,
+            "AUG": 5.11,
+            "SEP": 3.37,
+            "OCT": 0.24,
+            "NOV": 0.2,
+            "DEC": 0.32,
+            "ANN": 1.81
+          },
+          "RH2M": {
+            "JAN": 46.1,
+            "FEB": 45.73,
+            "MAR": 39.29,
+            "APR": 30.06,
+            "MAY": 23.18,
+            "JUN": 33.0,
+            "JUL": 54.65,
+            "AUG": 63.79,
+            "SEP": 59.78,
+            "OCT": 44.12,
+            "NOV": 39.77,
+            "DEC": 41.52,
+            "ANN": 43.43
+          },
+          "T2M": {
+            "JAN": 12.45,
+            "FEB": 16.05,
+            "MAR": 22.17,
+            "APR": 28.87,
+            "MAY": 34.47,
+            "JUN": 36.03,
+            "JUL": 33.57,
+            "AUG": 31.48,
+            "SEP": 29.23,
+            "OCT": 25.37,
+            "NOV": 19.46,
+            "DEC": 14.37,
+            "ANN": 25.33
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.171,
+        "process": 0.03
+      }
+    }
+  },
+  "pune_maharashtra": {
+    "metadata": {
+      "lat": 18.5204,
+      "lon": 73.8567,
+      "state": "Maharashtra"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.857,
+          18.52,
+          635.99
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 17.96,
+            "FEB": 21.06,
+            "MAR": 23.81,
+            "APR": 25.48,
+            "MAY": 25.26,
+            "JUN": 16.45,
+            "JUL": 11.92,
+            "AUG": 12.18,
+            "SEP": 15.51,
+            "OCT": 18.04,
+            "NOV": 17.63,
+            "DEC": 16.79,
+            "ANN": 18.49
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.03,
+            "FEB": 0.05,
+            "MAR": 0.15,
+            "APR": 0.14,
+            "MAY": 0.84,
+            "JUN": 12.06,
+            "JUL": 16.61,
+            "AUG": 13.19,
+            "SEP": 9.17,
+            "OCT": 3.41,
+            "NOV": 0.73,
+            "DEC": 0.13,
+            "ANN": 4.74
+          },
+          "RH2M": {
+            "JAN": 53.68,
+            "FEB": 44.82,
+            "MAR": 38.94,
+            "APR": 42.11,
+            "MAY": 56.61,
+            "JUN": 80.27,
+            "JUL": 89.09,
+            "AUG": 90.8,
+            "SEP": 89.44,
+            "OCT": 79.98,
+            "NOV": 71.73,
+            "DEC": 62.73,
+            "ANN": 66.8
+          },
+          "T2M": {
+            "JAN": 19.85,
+            "FEB": 22.7,
+            "MAR": 26.25,
+            "APR": 28.93,
+            "MAY": 28.8,
+            "JUN": 25.63,
+            "JUL": 23.92,
+            "AUG": 23.3,
+            "SEP": 23.37,
+            "OCT": 22.9,
+            "NOV": 21.06,
+            "DEC": 19.62,
+            "ANN": 23.86
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.133,
+        "process": 0.03
+      }
+    }
+  },
+  "thanjavur_tamil_nadu": {
+    "metadata": {
+      "lat": 10.787,
+      "lon": 79.1378,
+      "state": "Tamil Nadu"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.138,
+          10.787,
+          39.16
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 17.91,
+            "FEB": 21.06,
+            "MAR": 22.73,
+            "APR": 22.74,
+            "MAY": 21.5,
+            "JUN": 20.76,
+            "JUL": 20.12,
+            "AUG": 20.64,
+            "SEP": 20.23,
+            "OCT": 17.32,
+            "NOV": 14.66,
+            "DEC": 14.83,
+            "ANN": 19.53
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.51,
+            "FEB": 0.35,
+            "MAR": 0.61,
+            "APR": 1.11,
+            "MAY": 2.39,
+            "JUN": 1.4,
+            "JUL": 1.94,
+            "AUG": 2.92,
+            "SEP": 3.53,
+            "OCT": 6.29,
+            "NOV": 8.32,
+            "DEC": 3.74,
+            "ANN": 2.77
+          },
+          "RH2M": {
+            "JAN": 78.81,
+            "FEB": 71.25,
+            "MAR": 64.71,
+            "APR": 62.97,
+            "MAY": 64.07,
+            "JUN": 61.36,
+            "JUL": 60.9,
+            "AUG": 64.67,
+            "SEP": 70.55,
+            "OCT": 78.36,
+            "NOV": 85.94,
+            "DEC": 84.8,
+            "ANN": 70.7
+          },
+          "T2M": {
+            "JAN": 24.34,
+            "FEB": 26.11,
+            "MAR": 28.97,
+            "APR": 31.03,
+            "MAY": 31.21,
+            "JUN": 30.58,
+            "JUL": 30.2,
+            "AUG": 29.68,
+            "SEP": 28.91,
+            "OCT": 27.61,
+            "NOV": 25.59,
+            "DEC": 24.38,
+            "ANN": 28.22
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.144,
+        "process": 0.03
+      }
+    }
+  },
+  "varanasi_uttar_pradesh": {
+    "metadata": {
+      "lat": 25.3176,
+      "lon": 82.9739,
+      "state": "Uttar Pradesh"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.974,
+          25.318,
+          77.2
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 11.3,
+            "FEB": 16.23,
+            "MAR": 20.91,
+            "APR": 23.78,
+            "MAY": 23.98,
+            "JUN": 20.61,
+            "JUL": 16.66,
+            "AUG": 17.27,
+            "SEP": 17.12,
+            "OCT": 16.73,
+            "NOV": 13.56,
+            "DEC": 10.78,
+            "ANN": 17.4
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.4,
+            "FEB": 0.49,
+            "MAR": 0.31,
+            "APR": 0.37,
+            "MAY": 0.73,
+            "JUN": 3.65,
+            "JUL": 8.03,
+            "AUG": 6.45,
+            "SEP": 4.86,
+            "OCT": 1.08,
+            "NOV": 0.06,
+            "DEC": 0.16,
+            "ANN": 2.23
+          },
+          "RH2M": {
+            "JAN": 46.45,
+            "FEB": 40.73,
+            "MAR": 28.87,
+            "APR": 22.02,
+            "MAY": 26.39,
+            "JUN": 43.49,
+            "JUL": 73.92,
+            "AUG": 81.85,
+            "SEP": 81.28,
+            "OCT": 68.43,
+            "NOV": 57.52,
+            "DEC": 50.73,
+            "ANN": 51.9
+          },
+          "T2M": {
+            "JAN": 16.06,
+            "FEB": 20.3,
+            "MAR": 26.47,
+            "APR": 32.62,
+            "MAY": 36.0,
+            "JUN": 35.64,
+            "JUL": 30.8,
+            "AUG": 29.34,
+            "SEP": 28.26,
+            "OCT": 25.78,
+            "NOV": 21.17,
+            "DEC": 16.94,
+            "ANN": 26.63
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.12,
+        "process": 0.03
+      }
+    }
+  },
+  "rajkot_gujarat": {
+    "metadata": {
+      "lat": 22.3039,
+      "lon": 70.8022,
+      "state": "Gujarat"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.802,
+          22.304,
+          81.53
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 16.77,
+            "FEB": 19.97,
+            "MAR": 23.44,
+            "APR": 25.87,
+            "MAY": 26.62,
+            "JUN": 21.61,
+            "JUL": 15.62,
+            "AUG": 15.29,
+            "SEP": 18.66,
+            "OCT": 19.69,
+            "NOV": 16.71,
+            "DEC": 15.51,
+            "ANN": 19.63
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.02,
+            "FEB": 0.01,
+            "MAR": 0.04,
+            "APR": 0.07,
+            "MAY": 0.13,
+            "JUN": 3.45,
+            "JUL": 7.6,
+            "AUG": 6.91,
+            "SEP": 4.37,
+            "OCT": 0.42,
+            "NOV": 0.26,
+            "DEC": 0.01,
+            "ANN": 1.96
+          },
+          "RH2M": {
+            "JAN": 37.23,
+            "FEB": 38.4,
+            "MAR": 41.59,
+            "APR": 47.25,
+            "MAY": 54.08,
+            "JUN": 63.84,
+            "JUL": 77.09,
+            "AUG": 81.6,
+            "SEP": 78.59,
+            "OCT": 61.7,
+            "NOV": 47.3,
+            "DEC": 40.86,
+            "ANN": 55.88
+          },
+          "T2M": {
+            "JAN": 19.63,
+            "FEB": 22.58,
+            "MAR": 26.94,
+            "APR": 30.61,
+            "MAY": 32.25,
+            "JUN": 31.62,
+            "JUL": 29.02,
+            "AUG": 27.72,
+            "SEP": 27.67,
+            "OCT": 27.55,
+            "NOV": 24.62,
+            "DEC": 20.81,
+            "ANN": 26.76
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.12,
+        "process": 0.03
+      }
+    }
+  },
+  "indore_madhya_pradesh": {
+    "metadata": {
+      "lat": 22.7196,
+      "lon": 75.8577,
+      "state": "Madhya Pradesh"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.858,
+          22.72,
+          402.35
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 16.07,
+            "FEB": 19.4,
+            "MAR": 22.96,
+            "APR": 25.72,
+            "MAY": 26.43,
+            "JUN": 20.6,
+            "JUL": 14.61,
+            "AUG": 13.81,
+            "SEP": 16.84,
+            "OCT": 18.84,
+            "NOV": 16.38,
+            "DEC": 15.21,
+            "ANN": 18.89
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.16,
+            "FEB": 0.12,
+            "MAR": 0.21,
+            "APR": 0.13,
+            "MAY": 0.35,
+            "JUN": 4.31,
+            "JUL": 9.3,
+            "AUG": 8.86,
+            "SEP": 5.26,
+            "OCT": 0.84,
+            "NOV": 0.39,
+            "DEC": 0.12,
+            "ANN": 2.52
+          },
+          "RH2M": {
+            "JAN": 36.12,
+            "FEB": 28.25,
+            "MAR": 23.0,
+            "APR": 21.03,
+            "MAY": 30.27,
+            "JUN": 58.29,
+            "JUL": 80.37,
+            "AUG": 86.51,
+            "SEP": 83.17,
+            "OCT": 67.11,
+            "NOV": 54.72,
+            "DEC": 43.33,
+            "ANN": 51.15
+          },
+          "T2M": {
+            "JAN": 19.25,
+            "FEB": 22.75,
+            "MAR": 27.35,
+            "APR": 32.03,
+            "MAY": 34.35,
+            "JUN": 31.12,
+            "JUL": 27.07,
+            "AUG": 25.76,
+            "SEP": 25.78,
+            "OCT": 24.63,
+            "NOV": 22.23,
+            "DEC": 19.89,
+            "ANN": 26.02
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.135,
+        "process": 0.03
+      }
+    }
+  },
+  "guntur_andhra_pradesh": {
+    "metadata": {
+      "lat": 16.3067,
+      "lon": 80.4365,
+      "state": "Andhra Pradesh"
+    },
+    "data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.436,
+          16.307,
+          45.43
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "ALLSKY_SFC_SW_DWN": {
+            "JAN": 16.64,
+            "FEB": 19.72,
+            "MAR": 21.64,
+            "APR": 23.47,
+            "MAY": 22.44,
+            "JUN": 18.25,
+            "JUL": 16.2,
+            "AUG": 16.76,
+            "SEP": 17.32,
+            "OCT": 16.99,
+            "NOV": 16.55,
+            "DEC": 15.51,
+            "ANN": 18.44
+          },
+          "PRECTOTCORR": {
+            "JAN": 0.22,
+            "FEB": 0.35,
+            "MAR": 0.3,
+            "APR": 0.67,
+            "MAY": 1.55,
+            "JUN": 4.13,
+            "JUL": 5.85,
+            "AUG": 5.85,
+            "SEP": 5.63,
+            "OCT": 6.01,
+            "NOV": 2.32,
+            "DEC": 0.68,
+            "ANN": 2.81
+          },
+          "RH2M": {
+            "JAN": 69.06,
+            "FEB": 61.54,
+            "MAR": 56.89,
+            "APR": 56.21,
+            "MAY": 54.54,
+            "JUN": 64.65,
+            "JUL": 72.86,
+            "AUG": 80.59,
+            "SEP": 84.03,
+            "OCT": 82.6,
+            "NOV": 80.41,
+            "DEC": 74.87,
+            "ANN": 69.9
+          },
+          "T2M": {
+            "JAN": 23.94,
+            "FEB": 26.68,
+            "MAR": 30.04,
+            "APR": 32.36,
+            "MAY": 33.69,
+            "JUN": 30.84,
+            "JUL": 29.08,
+            "AUG": 27.87,
+            "SEP": 27.41,
+            "OCT": 26.49,
+            "NOV": 24.41,
+            "DEC": 23.09,
+            "ANN": 27.99
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.10.1",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "SYN1DEG",
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "25-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2025)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2025)"
+      ],
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        }
+      },
+      "times": {
+        "data": 0.134,
+        "process": 0.03
+      }
+    }
+  }
+}

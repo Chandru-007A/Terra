@@ -1,0 +1,9 @@
+district_id,state,latitude,longitude,annual_temp_c,annual_rain_mm,annual_humidity_pct,rabi_temp_c,rabi_rain_mm,rabi_humidity_pct,kharif_temp_c,kharif_rain_mm,kharif_humidity_pct,zaid_temp_c,zaid_rain_mm,zaid_humidity_pct,data_source,is_synthetic,retrieval_date
+nashik_maharashtra,Maharashtra,19.9975,73.7898,24.43,1640.0,61.17,22.65,30.7,43.45,24.51,1510.8,87.0,29.35,15.5,45.42,NASA_POWER_v2.6,False,2026-10-13
+ludhiana_punjab,Punjab,30.901,75.8573,25.33,661.1,43.43,16.9,101.6,42.48,32.58,505.7,52.8,31.67,42.9,26.62,NASA_POWER_v2.6,False,2026-10-13
+pune_maharashtra,Maharashtra,18.5204,73.8567,23.86,1731.3,66.8,21.9,33.1,54.38,24.05,1551.8,87.4,28.87,29.8,49.36,NASA_POWER_v2.6,False,2026-10-13
+thanjavur_tamil_nadu,Tamil Nadu,10.787,79.1378,28.22,1011.7,70.7,25.88,411.4,77.1,29.84,297.7,64.37,31.12,106.4,63.52,NASA_POWER_v2.6,False,2026-10-13
+varanasi_uttar_pradesh,Uttar Pradesh,25.3176,82.9739,26.63,814.5,51.9,20.19,43.2,44.86,31.01,699.1,70.14,34.31,33.5,24.2,NASA_POWER_v2.6,False,2026-10-13
+rajkot_gujarat,Gujarat,22.3039,70.8022,26.76,715.9,55.88,22.92,10.3,41.08,29.01,679.1,75.28,31.43,6.1,50.66,NASA_POWER_v2.6,False,2026-10-13
+indore_madhya_pradesh,Madhya Pradesh,22.7196,75.8577,26.02,920.4,51.15,22.29,30.4,37.08,27.43,843.3,77.09,33.19,14.6,25.65,NASA_POWER_v2.6,False,2026-10-13
+guntur_andhra_pradesh,Andhra Pradesh,16.3067,80.4365,27.99,1026.4,69.9,25.63,117.7,68.55,28.8,652.6,75.53,33.02,67.5,55.38,NASA_POWER_v2.6,False,2026-10-13
