@@ -12,23 +12,27 @@ export const metadata: Metadata = {
   title: "TERRA — AI Crop & Resource Optimization",
   description:
     "Recommend the right crops, predict yield, and optimally allocate land, water, fertilizer and budget. AI for smarter, more profitable farming.",
-  generator: "v0.app",
+  generator: "TERRA AI Platform",
   icons: {
     icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
       {
         url: "/icon.svg",
         type: "image/svg+xml",
       },
+      {
+        url: "/icon-light-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
     ],
-    apple: "/apple-icon.png",
+    shortcut: "/favicon.ico",
+    apple: [
+      {
+        url: "/apple-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
   },
 }
 
